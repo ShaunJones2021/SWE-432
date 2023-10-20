@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="station_page.css">
+    <script src="listener-open.js"></script>
+    <script src="search_valid.js"></script>
     <title>Station Page</title>
 </head>
 <body>
@@ -13,6 +15,7 @@
             <div class="logo-search">
                 <a href="#"><img src="images/vintage_logo.jpg" alt="Site Logo"></img></a>
                 <input type="text" placeholder="search">
+                <button type="submit">Search</button>
             </div>
             <aside class="user-feat">
                 <div>
@@ -27,29 +30,12 @@
                         <p>Help</p>
                     </a>
                 </div>
-                <div class="listener-options">
-                    <a href="home.html">
+                <div id="listener-closed">  
+                    <!-- <a href="#"> -->
                         <img src="images/help.png" alt="help"></img>
                         <p>Listener</p>
-                    </a>
-                </div>
-                <div class="listener-options" style="background-color: rgb(40, 40, 40);">  
-                    <a href="preferences.html">
-                        <img src="images/help.png" alt="help"></img>
-                        <p>Preferences</p>
-                    </a>
-                </div>
-                <div class="listener-options" style="background-color: rgb(40, 40, 40);">  
-                    <a href="likes.html">
-                        <img src="images/help.png" alt="help"></img>
-                        <p>Liked Station</p>
-                    </a>
-                </div>
-                <div class="listener-options" style="background-color: rgb(40, 40, 40);">  
-                    <a href="recommended.html">
-                        <img src="images/help.png" alt="help"></img>
-                        <p>Recommended</p>
-                    </a>
+                        <img src="images/dropdown_arrow.png" alt="dropdown arrow">
+                    <!-- </a> -->
                 </div>
             </aside>
         </div>
