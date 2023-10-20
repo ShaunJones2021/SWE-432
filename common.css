@@ -57,8 +57,15 @@ body{
 }
 
 .user-feat p {
+    margin-left: .75rem;
     display: inline-block;
     text-align: center;
+}
+
+.user-feat div{
+    color: white;
+    text-align: center;
+    cursor: pointer;
 }
 
 .user-feat a{
@@ -74,7 +81,7 @@ body{
     border-radius: 5px;
 }
 
-.user-feat a:hover {
+.user-feat div:hover, .user-feat a:hover {
     background-color: rgb(40, 40, 40);
 }
 
@@ -153,6 +160,11 @@ body{
     align-self: center;
     justify-self: center;
     height: auto;
+}
+
+.lazy {
+    width: 200px;
+    height: 150px;
 }
 
 .station-section {

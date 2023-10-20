@@ -56,7 +56,14 @@ body{
     text-align: center;
 }
 
+.user-feat div{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
 .user-feat p {
+    margin-left: .75rem;
     display: inline-block;
     text-align: center;
 }
@@ -74,7 +81,7 @@ body{
     border-radius: 5px;
 }
 
-.user-feat a:hover {
+.user-feat div:hover, .user-feat a:hover {
     background-color: rgb(40, 40, 40);
 }
 
@@ -147,8 +154,14 @@ body{
     grid-template-columns: 1fr;
 }
 
+.body div section form .first{
+    margin: .75rem;
+}
+
 .body div section form{
     display: grid;
+    margin: 1.5rem;
+    margin-top: 0;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 2fr 2fr 2fr 2fr 1fr;
 }
