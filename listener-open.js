@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
             div.classList.add("listener-options");
         
             let a = document.createElement("a");
-            a.href = "preferences.html";
+            a.href = "/preferences";
         
             let img = document.createElement("img");
             img.src = "images/help.png";
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
             div.classList.add("listener-options");
         
             a = document.createElement("a");
-            a.href = "recommended.html";
+            a.href = "/recommendations";
         
             img = document.createElement("img");
             img.src = "images/help.png";
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
             div.classList.add("listener-options");
         
             a = document.createElement("a");
-            a.href = "likes.html";
+            a.href = "/likes";
         
             img = document.createElement("img");
             img.src = "images/help.png";
