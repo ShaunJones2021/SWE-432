@@ -7,28 +7,28 @@ const userImages = { uimages: ["images/book.png", "images/help.png", "images/dro
 const stationImages = { simages: ["images/book.png", "images/help.png", "images/dropdown_arrow.png"] }
 
 const topStations = [
-    {url:"station", img:"images/station_placeholder.jpg", name:"Station Name", dj:"DJ"}, 
-    {url:"station", img:"images/station_placeholder_two.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_three.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_four.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_five.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_six.jpg", name:"Station Name", dj:"DJ"}
+    {url:"/station", img:"images/station_placeholder.jpg", name:"Station Name", dj:"DJ"}, 
+    {url:"/station", img:"images/station_placeholder_two.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_three.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_four.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_five.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_six.jpg", name:"Station Name", dj:"DJ"}
 ]
 const favoriteStations = [
-    {url:"station", img:"images/station_placeholder.jpg", name:"Station Name", dj:"DJ"}, 
-    {url:"station", img:"images/station_placeholder_two.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_three.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_four.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_five.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_six.jpg", name:"Station Name", dj:"DJ"}
+    {url:"/station", img:"images/station_placeholder.jpg", name:"Station Name", dj:"DJ"}, 
+    {url:"/station", img:"images/station_placeholder_two.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_three.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_four.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_five.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_six.jpg", name:"Station Name", dj:"DJ"}
 ]
 const recStations = [
-    {url:"station", img:"images/station_placeholder.jpg", name:"Station Name", dj:"DJ"}, 
-    {url:"station", img:"images/station_placeholder_two.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_three.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_four.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_five.jpg", name:"Station Name", dj:"DJ"},
-    {url:"station", img:"images/station_placeholder_six.jpg", name:"Station Name", dj:"DJ"}
+    {url:"/station", img:"images/station_placeholder.jpg", name:"Station Name", dj:"DJ"}, 
+    {url:"/station", img:"images/station_placeholder_two.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_three.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_four.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_five.jpg", name:"Station Name", dj:"DJ"},
+    {url:"/station", img:"images/station_placeholder_six.jpg", name:"Station Name", dj:"DJ"}
 ]
 
 const likedStations = [
